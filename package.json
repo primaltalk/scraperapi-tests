@@ -1,0 +1,31 @@
+{
+    "name": "scraperapitests",
+    "description": "Tests for  ScraperAPI consideration.",
+    "keywords": [],
+    "homepage": "http://primaltalk.com/",
+    "version": "0.0.1",
+    "author": {
+        "name": "Ian Williams",
+        "email": "ian.williams@primaltalk.com",
+        "url": "http://primaltalk.com"
+    },
+    "contributors": [],
+    "main": "simple.js",
+    "scripts": {
+        "simple": "babel-node src/simple.js",
+        "medium": "babel-node src/medium.js",
+        "complex": "babel-node src/complex.js"
+    },
+    "dependencies": {
+        "proxy-chain": "^0.2.7",
+        "puppeteer": "^1.19.0",
+        "puppeteer-extra": "^2.1.3",
+        "puppeteer-extra-plugin-stealth": "^2.2.2"
+    },
+    "license": "(MIT OR Apache-2.0)",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/node": "^7.5.5",
+        "@babel/preset-env": "^7.5.5"
+    }
+}
